@@ -34,6 +34,9 @@ ALLOWED_HOSTS = ["insurance.herokuapp.com"]
 ALLOWED_HOSTS = ["*"]
 
 # Application definition
+STATIC_URL="/static/"
+STATIC_ROOT=os.path.join(BASE_DIR,"static")
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
